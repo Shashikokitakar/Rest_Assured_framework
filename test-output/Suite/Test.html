@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Mar 17 13:26:04 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>49 seconds (49456 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.Create_User()'><b>Create_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: 1238, Test5, Shreyas, Salve, Test5@mail.com, Test5@5, 1234567894, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.User_properties_file.get_user()'><b>get_user</b><br>Test class: api.test.User_properties_file</td>
+<td></td>
+<td>1</td>
+<td>api.test.User_properties_file@71d44a3</td></tr>
+<tr>
+<td title='api.test.User_properties_file.create_user()'><b>create_user</b><br>Test class: api.test.User_properties_file</td>
+<td></td>
+<td>1</td>
+<td>api.test.User_properties_file@71d44a3</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.delete_User()'><b>delete_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: Test5</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.Create_User()'><b>Create_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: 1236, Test3, Shreya, Salve, Test3@mail.com, Test3@3, 1234567892, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.Create_User()'><b>Create_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: 1235, Test2, Shekhar, Kokitakar, Test2@mail.com, Test2@2, 1234567891, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.Get_User()'><b>Get_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: Test1</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.delete_User()'><b>delete_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: Test1</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.User_properties_file.update_user()'><b>update_user</b><br>Test class: api.test.User_properties_file</td>
+<td></td>
+<td>3</td>
+<td>api.test.User_properties_file@71d44a3</td></tr>
+<tr>
+<td title='api.test.User_Test_Case.update_user()'><b>update_user</b><br>Test class: api.test.User_Test_Case</td>
+<td></td>
+<td>3</td>
+<td>api.test.User_Test_Case@55141def</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.Create_User()'><b>Create_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: 1237, Test4, Vighnesh, Pradhan, Test4@mail.com, Test4@4, 1234567893, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.Get_User()'><b>Get_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: Test3</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.User_Test_Case.delete_user()'><b>delete_user</b><br>Test class: api.test.User_Test_Case</td>
+<td></td>
+<td>1</td>
+<td>api.test.User_Test_Case@55141def</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.delete_User()'><b>delete_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: Test2</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.User_Test_Case.create_user()'><b>create_user</b><br>Test class: api.test.User_Test_Case</td>
+<td></td>
+<td>5</td>
+<td>api.test.User_Test_Case@55141def</td></tr>
+<tr>
+<td title='api.test.User_Test_Case.get_user()'><b>get_user</b><br>Test class: api.test.User_Test_Case</td>
+<td></td>
+<td>1</td>
+<td>api.test.User_Test_Case@55141def</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.Create_User()'><b>Create_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: 1234, Test1, Shashikant, Kokitakar, Test1@mail.com, Test1@1, 1234567890, 0</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.delete_User()'><b>delete_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: Test3</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.User_properties_file.delete_user()'><b>delete_user</b><br>Test class: api.test.User_properties_file</td>
+<td></td>
+<td>1</td>
+<td>api.test.User_properties_file@71d44a3</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.Get_User()'><b>Get_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: Test4</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.delete_User()'><b>delete_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: Test4</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.Get_User()'><b>Get_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: Test2</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+<tr>
+<td title='api.test.Data_Driven_User_Test.Get_User()'><b>Get_User</b><br>Test class: api.test.Data_Driven_User_Test<br>Parameters: Test5</td>
+<td></td>
+<td>1</td>
+<td>api.test.Data_Driven_User_Test@73a1e9a9</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,8 @@
+13:26:06.775 [main] INFO  api.test.User_Test_Case - ################### Creating a new User ########################
+13:26:11.998 [main] INFO  api.test.User_Test_Case - ################### Created a User ########################
+13:26:12.044 [main] INFO  api.test.User_Test_Case - ################### Fetching a new User ########################
+13:26:13.681 [main] INFO  api.test.User_Test_Case - ################### User Fetched ########################
+13:26:13.695 [main] INFO  api.test.User_Test_Case - ################### Update a new User ########################
+13:26:16.893 [main] INFO  api.test.User_Test_Case - ################### Updated a new User ########################
+13:26:16.907 [main] INFO  api.test.User_Test_Case - ################### Deliting a new User ########################
+13:26:18.609 [main] INFO  api.test.User_Test_Case - ################### Deleted a new User ########################

@@ -9,6 +9,7 @@
 			<class name="api.test.User_Test_Case" />
 			<class name="api.test.Data_Driven_User_Test"/>
 			<class name="api.test.User_properties_file"/>
+			<class name="api.test.Store_Test_Case"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

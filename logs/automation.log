@@ -6,3 +6,19 @@
 13:26:16.893 [main] INFO  api.test.User_Test_Case - ################### Updated a new User ########################
 13:26:16.907 [main] INFO  api.test.User_Test_Case - ################### Deliting a new User ########################
 13:26:18.609 [main] INFO  api.test.User_Test_Case - ################### Deleted a new User ########################
+12:59:53.275 [main] INFO  api.test.User_Test_Case - ################### Creating a new User ########################
+12:59:58.284 [main] INFO  api.test.User_Test_Case - ################### Created a User ########################
+12:59:58.329 [main] INFO  api.test.User_Test_Case - ################### Fetching a new User ########################
+13:00:00.670 [main] INFO  api.test.User_Test_Case - ################### User Fetched ########################
+13:00:00.688 [main] INFO  api.test.User_Test_Case - ################### Update a new User ########################
+13:00:03.667 [main] INFO  api.test.User_Test_Case - ################### Updated a new User ########################
+13:00:03.678 [main] INFO  api.test.User_Test_Case - ################### Deliting a new User ########################
+13:00:05.101 [main] INFO  api.test.User_Test_Case - ################### Deleted a new User ########################
+13:02:57.707 [main] INFO  api.test.User_Test_Case - ################### Creating a new User ########################
+13:03:02.354 [main] INFO  api.test.User_Test_Case - ################### Created a User ########################
+13:03:02.379 [main] INFO  api.test.User_Test_Case - ################### Fetching a new User ########################
+13:03:04.604 [main] INFO  api.test.User_Test_Case - ################### User Fetched ########################
+13:03:04.613 [main] INFO  api.test.User_Test_Case - ################### Update a new User ########################
+13:03:08.662 [main] INFO  api.test.User_Test_Case - ################### Updated a new User ########################
+13:03:08.680 [main] INFO  api.test.User_Test_Case - ################### Deliting a new User ########################
+13:03:10.545 [main] INFO  api.test.User_Test_Case - ################### Deleted a new User ########################

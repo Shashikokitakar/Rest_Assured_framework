@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">23 methods,   23 passed</span>
+                    <span class="method-stats">26 methods, 1 failed,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.Store_Test_Case" class="method navigator-link" hash-for-method="get_user">get_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +117,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="Create_User(1238, Test5, Shreyas, Salve, Test5@mail.com, Test5@5, 1234567894, 0)">Create_User(1238, Test5, Shreyas, Salve, Test5@mail.com, Test5@5, 1234567894, 0)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="Create_User(1235, Test2, Shekhar, Kokitakar, Test2@mail.com, Test2@2, 1234567891, 0)">Create_User(1235, Test2, Shekhar, Kokitakar, Test2@mail.com, Test2@2, 1234567891, 0)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -113,7 +127,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="Create_User(1235, Test2, Shekhar, Kokitakar, Test2@mail.com, Test2@2, 1234567891, 0)">Create_User(1235, Test2, Shekhar, Kokitakar, Test2@mail.com, Test2@2, 1234567891, 0)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="Create_User(1234, Test1, Shashikant, Kokitakar, Test1@mail.com, Test1@1, 1234567890, 0)">Create_User(1234, Test1, Shashikant, Kokitakar, Test1@mail.com, Test1@1, 1234567890, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="Create_User(1238, Test5, Shreyas, Salve, Test5@mail.com, Test5@5, 1234567894, 0)">Create_User(1238, Test5, Shreyas, Salve, Test5@mail.com, Test5@5, 1234567894, 0)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -123,17 +142,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="Create_User(1234, Test1, Shashikant, Kokitakar, Test1@mail.com, Test1@1, 1234567890, 0)">Create_User(1234, Test1, Shashikant, Kokitakar, Test1@mail.com, Test1@1, 1234567890, 0)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="Get_User(Test5)">Get_User(Test5)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="Get_User(Test1)">Get_User(Test1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="Get_User(Test3)">Get_User(Test3)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -148,12 +162,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="Get_User(Test5)">Get_User(Test5)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="Get_User(Test3)">Get_User(Test3)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.test.User_properties_file" class="method navigator-link" hash-for-method="create_user">create_user</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.test.Store_Test_Case" class="method navigator-link" hash-for-method="create_user">create_user</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -163,7 +177,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.User_properties_file" class="method navigator-link" hash-for-method="create_user">create_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="delete_User(Test5)">delete_User(Test5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="delete_User(Test4)">delete_User(Test4)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -183,11 +207,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.test.Data_Driven_User_Test" class="method navigator-link" hash-for-method="delete_User(Test4)">delete_User(Test4)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="api.test.User_Test_Case" class="method navigator-link" hash-for-method="delete_user">delete_user</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -198,7 +217,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.test.User_properties_file" class="method navigator-link" hash-for-method="get_user">get_user</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.test.Store_Test_Case" class="method navigator-link" hash-for-method="delete_user">delete_user</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -208,12 +227,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.test.User_properties_file" class="method navigator-link" hash-for-method="update_user">update_user</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="api.test.User_properties_file" class="method navigator-link" hash-for-method="get_user">get_user</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="api.test.User_Test_Case" class="method navigator-link" hash-for-method="update_user">update_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.User_properties_file" class="method navigator-link" hash-for-method="update_user">update_user</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -228,6 +252,44 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.test.Store_Test_Case</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="get_user">
+                  </a> <!-- get_user -->
+                  <span class="method-name">get_user</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at api.test.Store_Test_Case.get_user(Store_Test_Case.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -267,15 +329,37 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">api.test.Store_Test_Case</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create_user">
+                  </a> <!-- create_user -->
+                  <span class="method-name">create_user</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="delete_user">
+                  </a> <!-- delete_user -->
+                  <span class="method-name">delete_user</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">api.test.Data_Driven_User_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Create_User(1238, Test5, Shreyas, Salve, Test5@mail.com, Test5@5, 1234567894, 0)">
-                  </a> <!-- Create_User(1238, Test5, Shreyas, Salve, Test5@mail.com, Test5@5, 1234567894, 0) -->
+                  <a name="Create_User(1235, Test2, Shekhar, Kokitakar, Test2@mail.com, Test2@2, 1234567891, 0)">
+                  </a> <!-- Create_User(1235, Test2, Shekhar, Kokitakar, Test2@mail.com, Test2@2, 1234567891, 0) -->
                   <span class="method-name">Create_User</span>
-                  <span class="parameters">(1238,Test5,Shreyas,Salve,Test5@mail.com,Test5@5,1234567894,0)</span>
+                  <span class="parameters">(1235,Test2,Shekhar,Kokitakar,Test2@mail.com,Test2@2,1234567891,0)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -288,10 +372,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Create_User(1235, Test2, Shekhar, Kokitakar, Test2@mail.com, Test2@2, 1234567891, 0)">
-                  </a> <!-- Create_User(1235, Test2, Shekhar, Kokitakar, Test2@mail.com, Test2@2, 1234567891, 0) -->
+                  <a name="Create_User(1234, Test1, Shashikant, Kokitakar, Test1@mail.com, Test1@1, 1234567890, 0)">
+                  </a> <!-- Create_User(1234, Test1, Shashikant, Kokitakar, Test1@mail.com, Test1@1, 1234567890, 0) -->
                   <span class="method-name">Create_User</span>
-                  <span class="parameters">(1235,Test2,Shekhar,Kokitakar,Test2@mail.com,Test2@2,1234567891,0)</span>
+                  <span class="parameters">(1234,Test1,Shashikant,Kokitakar,Test1@mail.com,Test1@1,1234567890,0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Create_User(1238, Test5, Shreyas, Salve, Test5@mail.com, Test5@5, 1234567894, 0)">
+                  </a> <!-- Create_User(1238, Test5, Shreyas, Salve, Test5@mail.com, Test5@5, 1234567894, 0) -->
+                  <span class="method-name">Create_User</span>
+                  <span class="parameters">(1238,Test5,Shreyas,Salve,Test5@mail.com,Test5@5,1234567894,0)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -304,10 +396,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Create_User(1234, Test1, Shashikant, Kokitakar, Test1@mail.com, Test1@1, 1234567890, 0)">
-                  </a> <!-- Create_User(1234, Test1, Shashikant, Kokitakar, Test1@mail.com, Test1@1, 1234567890, 0) -->
-                  <span class="method-name">Create_User</span>
-                  <span class="parameters">(1234,Test1,Shashikant,Kokitakar,Test1@mail.com,Test1@1,1234567890,0)</span>
+                  <a name="Get_User(Test5)">
+                  </a> <!-- Get_User(Test5) -->
+                  <span class="method-name">Get_User</span>
+                  <span class="parameters">(Test5)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -316,14 +408,6 @@
                   </a> <!-- Get_User(Test1) -->
                   <span class="method-name">Get_User</span>
                   <span class="parameters">(Test1)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Get_User(Test3)">
-                  </a> <!-- Get_User(Test3) -->
-                  <span class="method-name">Get_User</span>
-                  <span class="parameters">(Test3)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -344,10 +428,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Get_User(Test5)">
-                  </a> <!-- Get_User(Test5) -->
+                  <a name="Get_User(Test3)">
+                  </a> <!-- Get_User(Test3) -->
                   <span class="method-name">Get_User</span>
-                  <span class="parameters">(Test5)</span>
+                  <span class="parameters">(Test3)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -356,6 +440,14 @@
                   </a> <!-- delete_User(Test5) -->
                   <span class="method-name">delete_User</span>
                   <span class="parameters">(Test5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="delete_User(Test4)">
+                  </a> <!-- delete_User(Test4) -->
+                  <span class="method-name">delete_User</span>
+                  <span class="parameters">(Test4)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -380,14 +472,6 @@
                   </a> <!-- delete_User(Test3) -->
                   <span class="method-name">delete_User</span>
                   <span class="parameters">(Test3)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="delete_User(Test4)">
-                  </a> <!-- delete_User(Test4) -->
-                  <span class="method-name">delete_User</span>
-                  <span class="parameters">(Test4)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -446,6 +530,7 @@
       &lt;class name=&quot;api.test.User_Test_Case&quot;/&gt;
       &lt;class name=&quot;api.test.Data_Driven_User_Test&quot;/&gt;
       &lt;class name=&quot;api.test.User_properties_file&quot;/&gt;
+      &lt;class name=&quot;api.test.Store_Test_Case&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -459,7 +544,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -485,104 +570,116 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(23);
+data.addRows(26);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'create_user')
-data.setCell(0, 2, 'api.test.User_Test_Case')
-data.setCell(0, 3, 5238);
+data.setCell(0, 1, 'delete_User')
+data.setCell(0, 2, 'api.test.Data_Driven_User_Test')
+data.setCell(0, 3, 25109);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'update_user')
-data.setCell(1, 2, 'api.test.User_Test_Case')
-data.setCell(1, 3, 3204);
+data.setCell(1, 1, 'Get_User')
+data.setCell(1, 2, 'api.test.Data_Driven_User_Test')
+data.setCell(1, 3, 22594);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'update_user')
-data.setCell(2, 2, 'api.test.User_properties_file')
-data.setCell(2, 3, 3184);
+data.setCell(2, 1, 'create_user')
+data.setCell(2, 2, 'api.test.User_Test_Case')
+data.setCell(2, 3, 4663);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'delete_User')
-data.setCell(3, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(3, 3, 1729);
+data.setCell(3, 1, 'update_user')
+data.setCell(3, 2, 'api.test.User_Test_Case')
+data.setCell(3, 3, 4055);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'delete_user')
-data.setCell(4, 2, 'api.test.User_Test_Case')
-data.setCell(4, 3, 1707);
+data.setCell(4, 1, 'update_user')
+data.setCell(4, 2, 'api.test.User_properties_file')
+data.setCell(4, 3, 3153);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'Create_User')
 data.setCell(5, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(5, 3, 1672);
+data.setCell(5, 3, 2573);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Create_User')
+data.setCell(6, 1, 'Get_User')
 data.setCell(6, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(6, 3, 1669);
+data.setCell(6, 3, 2553);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'get_user')
-data.setCell(7, 2, 'api.test.User_Test_Case')
-data.setCell(7, 3, 1646);
+data.setCell(7, 1, 'delete_User')
+data.setCell(7, 2, 'api.test.Data_Driven_User_Test')
+data.setCell(7, 3, 2432);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'Get_User')
+data.setCell(8, 1, 'Create_User')
 data.setCell(8, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(8, 3, 1644);
+data.setCell(8, 3, 2272);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'Create_User')
-data.setCell(9, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(9, 3, 1617);
+data.setCell(9, 1, 'get_user')
+data.setCell(9, 2, 'api.test.User_Test_Case')
+data.setCell(9, 3, 2228);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'delete_User')
-data.setCell(10, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(10, 3, 1617);
+data.setCell(10, 1, 'get_user')
+data.setCell(10, 2, 'api.test.User_properties_file')
+data.setCell(10, 3, 2078);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'delete_User')
+data.setCell(11, 1, 'Get_User')
 data.setCell(11, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(11, 3, 1603);
+data.setCell(11, 3, 1954);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'get_user')
-data.setCell(12, 2, 'api.test.User_properties_file')
-data.setCell(12, 3, 1593);
+data.setCell(12, 1, 'Create_User')
+data.setCell(12, 2, 'api.test.Data_Driven_User_Test')
+data.setCell(12, 3, 1889);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'Get_User')
-data.setCell(13, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(13, 3, 1593);
+data.setCell(13, 1, 'delete_user')
+data.setCell(13, 2, 'api.test.User_Test_Case')
+data.setCell(13, 3, 1871);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'delete_user')
-data.setCell(14, 2, 'api.test.User_properties_file')
-data.setCell(14, 3, 1593);
+data.setCell(14, 1, 'Create_User')
+data.setCell(14, 2, 'api.test.Data_Driven_User_Test')
+data.setCell(14, 3, 1746);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'Create_User')
+data.setCell(15, 1, 'delete_User')
 data.setCell(15, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(15, 3, 1589);
+data.setCell(15, 3, 1698);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'Get_User')
+data.setCell(16, 1, 'delete_User')
 data.setCell(16, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(16, 3, 1588);
+data.setCell(16, 3, 1654);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'Create_User')
+data.setCell(17, 1, 'Get_User')
 data.setCell(17, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(17, 3, 1574);
+data.setCell(17, 3, 1633);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'Get_User')
-data.setCell(18, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(18, 3, 1557);
+data.setCell(18, 1, 'create_user')
+data.setCell(18, 2, 'api.test.User_properties_file')
+data.setCell(18, 3, 1630);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'Get_User')
-data.setCell(19, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(19, 3, 1555);
+data.setCell(19, 1, 'create_user')
+data.setCell(19, 2, 'api.test.Store_Test_Case')
+data.setCell(19, 3, 1561);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'delete_User')
+data.setCell(20, 1, 'Get_User')
 data.setCell(20, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(20, 3, 1554);
+data.setCell(20, 3, 1551);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'delete_User')
-data.setCell(21, 2, 'api.test.Data_Driven_User_Test')
-data.setCell(21, 3, 1536);
+data.setCell(21, 1, 'get_user')
+data.setCell(21, 2, 'api.test.Store_Test_Case')
+data.setCell(21, 3, 1488);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'create_user')
-data.setCell(22, 2, 'api.test.User_properties_file')
-data.setCell(22, 3, 1490);
+data.setCell(22, 1, 'Create_User')
+data.setCell(22, 2, 'api.test.Data_Driven_User_Test')
+data.setCell(22, 3, 1465);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'delete_User')
+data.setCell(23, 2, 'api.test.Data_Driven_User_Test')
+data.setCell(23, 3, 1404);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'delete_user')
+data.setCell(24, 2, 'api.test.User_properties_file')
+data.setCell(24, 3, 1388);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'delete_user')
+data.setCell(25, 2, 'api.test.Store_Test_Case')
+data.setCell(25, 3, 1364);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -615,105 +712,126 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">create_user</span>
-                <span class="method-start">1443 ms</span>
+                <span class="method-start">1373 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">get_user</span>
-                <span class="method-start">6718 ms</span>
+                <span class="method-start">6058 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">update_user</span>
-                <span class="method-start">8372 ms</span>
+                <span class="method-start">8291 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">delete_user</span>
-                <span class="method-start">11584 ms</span>
+                <span class="method-start">12356 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">api.test.Data_Driven_User_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Create_User(1234, Test1, Shashikant, Kokitakar, Test1@mail.com, Test1@1, 1234567890, 0)</span>
-                <span class="method-start">16271 ms</span>
+                <span class="method-start">16960 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Create_User(1235, Test2, Shekhar, Kokitakar, Test2@mail.com, Test2@2, 1234567891, 0)</span>
-                <span class="method-start">17896 ms</span>
+                <span class="method-start">18713 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Create_User(1236, Test3, Shreya, Salve, Test3@mail.com, Test3@3, 1234567892, 0)</span>
-                <span class="method-start">19583 ms</span>
+                <span class="method-start">20184 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Create_User(1237, Test4, Vighnesh, Pradhan, Test4@mail.com, Test4@4, 1234567893, 0)</span>
-                <span class="method-start">21193 ms</span>
+                <span class="method-start">22765 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Create_User(1238, Test5, Shreyas, Salve, Test5@mail.com, Test5@5, 1234567894, 0)</span>
-                <span class="method-start">22779 ms</span>
+                <span class="method-start">25045 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Get_User(Test1)</span>
-                <span class="method-start">24651 ms</span>
+                <span class="method-start">27113 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Get_User(Test2)</span>
-                <span class="method-start">26299 ms</span>
+                <span class="method-start">28667 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Get_User(Test3)</span>
-                <span class="method-start">27894 ms</span>
+                <span class="method-start">30629 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Get_User(Test4)</span>
-                <span class="method-start">29491 ms</span>
+                <span class="method-start">33188 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Get_User(Test5)</span>
-                <span class="method-start">31052 ms</span>
+                <span class="method-start">34826 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">delete_User(Test1)</span>
-                <span class="method-start">32780 ms</span>
+                <span class="method-start">57602 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">delete_User(Test2)</span>
-                <span class="method-start">34321 ms</span>
+                <span class="method-start">59258 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">delete_User(Test3)</span>
-                <span class="method-start">35880 ms</span>
+                <span class="method-start">60667 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">delete_User(Test4)</span>
-                <span class="method-start">37619 ms</span>
+                <span class="method-start">63105 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">delete_User(Test5)</span>
-                <span class="method-start">39243 ms</span>
+                <span class="method-start">88219 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">api.test.User_properties_file</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Setup_data</span>
-                <span class="method-start">40850 ms</span>
+                <span class="method-start">89922 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">create_user</span>
-                <span class="method-start">40965 ms</span>
+                <span class="method-start">90023 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">get_user</span>
-                <span class="method-start">42461 ms</span>
+                <span class="method-start">91659 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">update_user</span>
-                <span class="method-start">44062 ms</span>
+                <span class="method-start">93743 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">delete_user</span>
-                <span class="method-start">47252 ms</span>
+                <span class="method-start">96906 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.Store_Test_Case</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">98301 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">create_user</span>
+                <span class="method-start">98306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">get_user</span>
+                <span class="method-start">99873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">delete_user</span>
+                <span class="method-start">101367 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,0 +1,44 @@
+13:26:06.775 [main] INFO  api.test.User_Test_Case - ################### Creating a new User ########################
+13:26:11.998 [main] INFO  api.test.User_Test_Case - ################### Created a User ########################
+13:26:12.044 [main] INFO  api.test.User_Test_Case - ################### Fetching a new User ########################
+13:26:13.681 [main] INFO  api.test.User_Test_Case - ################### User Fetched ########################
+13:26:13.695 [main] INFO  api.test.User_Test_Case - ################### Update a new User ########################
+13:26:16.893 [main] INFO  api.test.User_Test_Case - ################### Updated a new User ########################
+13:26:16.907 [main] INFO  api.test.User_Test_Case - ################### Deliting a new User ########################
+13:26:18.609 [main] INFO  api.test.User_Test_Case - ################### Deleted a new User ########################
+12:59:53.275 [main] INFO  api.test.User_Test_Case - ################### Creating a new User ########################
+12:59:58.284 [main] INFO  api.test.User_Test_Case - ################### Created a User ########################
+12:59:58.329 [main] INFO  api.test.User_Test_Case - ################### Fetching a new User ########################
+13:00:00.670 [main] INFO  api.test.User_Test_Case - ################### User Fetched ########################
+13:00:00.688 [main] INFO  api.test.User_Test_Case - ################### Update a new User ########################
+13:00:03.667 [main] INFO  api.test.User_Test_Case - ################### Updated a new User ########################
+13:00:03.678 [main] INFO  api.test.User_Test_Case - ################### Deliting a new User ########################
+13:00:05.101 [main] INFO  api.test.User_Test_Case - ################### Deleted a new User ########################
+13:02:57.707 [main] INFO  api.test.User_Test_Case - ################### Creating a new User ########################
+13:03:02.354 [main] INFO  api.test.User_Test_Case - ################### Created a User ########################
+13:03:02.379 [main] INFO  api.test.User_Test_Case - ################### Fetching a new User ########################
+13:03:04.604 [main] INFO  api.test.User_Test_Case - ################### User Fetched ########################
+13:03:04.613 [main] INFO  api.test.User_Test_Case - ################### Update a new User ########################
+13:03:08.662 [main] INFO  api.test.User_Test_Case - ################### Updated a new User ########################
+13:03:08.680 [main] INFO  api.test.User_Test_Case - ################### Deliting a new User ########################
+13:03:10.545 [main] INFO  api.test.User_Test_Case - ################### Deleted a new User ########################
+14:39:19.829 [main] INFO  api.test.User_Test_Case - ################### Creating a new User ########################
+14:39:26.714 [main] INFO  api.test.User_Test_Case - ################### Created a User ########################
+14:39:26.753 [main] INFO  api.test.User_Test_Case - ################### Fetching a new User ########################
+14:39:28.556 [main] INFO  api.test.User_Test_Case - ################### User Fetched ########################
+14:39:28.565 [main] INFO  api.test.User_Test_Case - ################### Update a new User ########################
+14:39:31.746 [main] INFO  api.test.User_Test_Case - ################### Updated a new User ########################
+14:39:31.751 [main] INFO  api.test.User_Test_Case - ################### Deliting a new User ########################
+14:39:34.349 [main] INFO  api.test.User_Test_Case - ################### Deleted a new User ########################
+15:24:15.351 [main] INFO  api.test.User_Test_Case - ################### Creating a new User ########################
+15:24:20.902 [main] INFO  api.test.User_Test_Case - ################### Created a User ########################
+15:24:20.930 [main] INFO  api.test.User_Test_Case - ################### Fetching a new User ########################
+15:24:22.970 [main] INFO  api.test.User_Test_Case - ################### User Fetched ########################
+15:24:22.984 [main] INFO  api.test.User_Test_Case - ################### Update a new User ########################
+15:24:26.223 [main] INFO  api.test.User_Test_Case - ################### Updated a new User ########################
+15:24:26.226 [main] INFO  api.test.User_Test_Case - ################### Deliting a new User ########################
+15:24:27.766 [main] INFO  api.test.User_Test_Case - ################### Deleted a new User ########################
+15:27:56.889 [main] INFO  api.test.User_Test_Case - ################### Creating a new User ########################
+15:28:02.048 [main] INFO  api.test.User_Test_Case - ################### Created a User ########################
+15:28:02.072 [main] INFO  api.test.User_Test_Case - ################### Fetching a new User ########################
+15:28:03.662 [main] INFO  api.test.User_Test_Case - ################### User Fetched ########################
